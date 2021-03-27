@@ -1,1 +1,5 @@
 # iwo-fp
+
+I made a few adjustments according to my feedback for my project proposal:
+
+I want to work on the frequency of talk about mental health on Twitter. because I want to find out whether users on Twitter are talking more about mental health in 2019 than in 2015. My research question can be formulated as follows: Are users on Twitter talking more about mental health in 2019 than in 2015? My hypothesis is Users on Twitter are talking more about mental health in 2019 than in 2015. Topic: The frequency of talk about mental health. Significance: Find out whether people on Twitter are talking more about mental health in 2019 than in 2015. Research Question: Are users on Twitter talking more about mental health in 2019 than in 2015? Hypothesis: Users on Twitter are talking more about mental health in 2019 than in 2015. Independent variables: 2015 & 2019 > I will use a couple of months for each year (the same months for 2015 and 2019) Dependent variables: Tweets with keywords about mental health & Tweets without keywords about mental health.
