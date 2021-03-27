@@ -1,0 +1,241 @@
+psychische gezondheid
+mentale gezondheid
+mentale staat
+geestelijke gezondheid
+mentaal gezond
+geestelijk gezond
+mentale gesteldheid
+geestelijke gesteldheid
+mentale weerbaarheid
+geestelijke weerbaarheid
+mentale welzijn
+geestelijke welzijn
+
+grep -c -E -i "(psychische gezondheid|mentale gezondheid|mentale staat|geestelijke gezondheid|mentaal gezond|geestelijk gezond|mentale gesteldheid|geestelijke gesteldheid|mentale weerbaarheid|geestelijke weerbaarheid|mentale welzijn|geestelijke welzijn")
+
+2015-01-01:
+00: 0 49178
+1: 0 37794
+2: 0 22567
+3: 0 13702
+4:0 8963
+5:0
+6:0
+7:0
+8:0
+9:0
+10:0
+11:0
+12:0
+13:0
+14:0
+15:0
+16:0
+17:1
+18:1
+19:0
+20:1
+21:0
+22:0
+23:2
+
+Totaal: 5
+
+2015-01-10:
+00: 
+1:
+2:
+3:
+4:1
+5:
+6:
+7:
+8:1
+9:2
+10:
+11:1
+12:
+13:
+14:
+15:
+16:1
+17:
+18:
+19:
+20:
+21:1
+22:2
+23:
+
+Totaal: 9
+
+2015-06-01:
+00: 
+1:
+2:
+3:
+4:
+5:
+6:
+7:
+8:1
+9:
+10:3
+11:
+12:
+13:
+14:2
+15:2
+16:
+17:1
+18:1
+19:
+20:14
+21:1
+22:
+23:
+
+Totaal: 25
+
+2015-06-10:
+00: 1
+1:
+2:
+3:
+4:
+5:
+6:
+7:1
+8:
+9:1
+10:2
+11:1
+12:
+13:2
+14:2
+15:1
+16:3
+17:
+18:
+19:1
+20:2
+21:2
+22:
+23:
+
+Totaal: 19
+
+2019-01-01:
+00: 
+1:
+2:
+3:3
+4:
+5:
+6:
+7:
+8:
+9:
+10:1
+11:1
+12:1
+13:1
+14:2
+15:
+16:2
+17:2
+18:1
+19:1
+20:6
+21:20
+22:10
+23:9
+
+Totaal:60 
+
+2019-01-10:
+00: 1
+1:
+2:
+3:
+4:
+5:
+6:
+7:2
+8:3
+9:
+10:4
+11:3
+12:
+13:1
+14:2
+15:2
+16:6
+17:4
+18:2
+19:3
+20:1
+21:1
+22:1
+23:1
+
+Totaal: 37
+
+2019-06-01:
+00: 
+1:
+2:
+3:3
+4:
+5:
+6:
+7:4
+8:1
+9:2
+10:2
+11:2
+12:4
+13:
+14:3
+15:1
+16:2
+17:2
+18:1
+19:4
+20:
+21:2
+22:2
+23:3
+
+Totaal: 37
+
+2019-06-10:
+00: 
+1:1
+2:
+3:
+4:
+5:
+6:
+7:
+8:
+9:
+10:2
+11:2
+12:1
+13:4
+14:
+15:1
+16:1
+17:9
+18:1
+19:1
+20:3
+21:3
+22:2
+23:2
+
+Totaal: 33
+
+Totaal 2015: 58
+Totaal 2019: 167
