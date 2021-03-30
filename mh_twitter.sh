@@ -1,16 +1,16 @@
 #!/bin/bash
-# Descr: This shell script counts all occurences of the article 'de' in
-#        theDutch Wikipedia page of the Rijksuniversiteit Groningen
-#		 (https://nl.wikipedia.org/wiki/Rijksuniversiteit_Groningen).
+# Descr: This shell script counts the amount of tweets with mental health
+# keywords and the amount of tweets without mental health keywords for a
+# given file.
 #
-# Usage: ./m5.sh FILE
-# Or use: sh m5.sh FILE
+# Usage: ./mh_twitter.sh FILE
+# Or use: sh mh_twitter.sh FILE
 #
 # Here FILE specifies the file you would like to use. In the case of
-# the rug.txt file you should use the script as follows:
+# the 2015010101.txt file you should use the script as follows:
 #
-# ./fp.sh rug.txt
-# (or sh m5.sh rug.txt)
+# ./mh_twitter.sh 2015010101.txt
+# (or sh mh_twitter.sh 2015010101.txt)
 
 
 # Check if file is specified
@@ -28,14 +28,25 @@ then
 	exit
 fi
 
-# Output each match on a new line and ignore case distinctions,
-# count the number of lines.
 echo "Tweets with mental health keywords:"
+
+# Output each match on a new line, use extended regular expressions, 
+# and ignore case distinctions, count the number of tweets with mental
+# health keywords and story in variable 'HITS'.
 HITS=$(grep -c -E -i "(psychische gezondheid|mentale gezondheid|mentale staat|geestelijke gezondheid|mentaal gezond|geestelijk gezond|mentale gesteldheid|geestelijke gesteldheid|mentale weerbaarheid|geestelijke weerbaarheid|mentale welzijn|geestelijke welzijn)" $FILE)
+
+# Print variable 'HITS'.
 echo $HITS
 
 echo "Tweets without mental health keywords:"
+
+# Count the amount of lines/tweets and store in variable 'tweets'.
 tweets=$(cat $FILE | wc -l)
+
+# Subtract the amount of tweets with mental health keywords ('HITS')
+# from the amount of tweets ('tweets') and store in variable 'without'.
 without=$((tweets- HITS))
+
+# Print variable 'without'
 echo $without
 
