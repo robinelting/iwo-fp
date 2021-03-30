@@ -1,6 +1,6 @@
 # Mental health on Twitter
 
-In this GitHub repository you can find all data and the script needed to obtain the same data as I have obtained for my research on the usage of mental health keywords on Twitter.
+In this GitHub repository you can find all data and the script needed to obtain the same data as I have obtained for my research on the usage of mental health keywords on Twitter. In my study, I researched the following question: Are users on Twitter talking more about mental health in 2019 than in 2015? The results of my study can be found at the subtitle 'Results'.
 
 ## Data
 Besides the shell script, you can find multiple folders in this repository including the data that I have used for my research. These folders are called: *.
@@ -52,6 +52,3 @@ Tweets without mental health keywords: 3.053.956
 Tweets with mental health keywords: 167
 Tweets without mental health keywords: 1.854.194
 
-I made a few adjustments according to my feedback for my project proposal:
-
-I want to work on the frequency of talk about mental health on Twitter. because I want to find out whether users on Twitter are talking more about mental health in 2019 than in 2015. My research question can be formulated as follows: Are users on Twitter talking more about mental health in 2019 than in 2015? My hypothesis is Users on Twitter are talking more about mental health in 2019 than in 2015. Topic: The frequency of talk about mental health. Significance: Find out whether people on Twitter are talking more about mental health in 2019 than in 2015. Research Question: Are users on Twitter talking more about mental health in 2019 than in 2015? Hypothesis: Users on Twitter are talking more about mental health in 2019 than in 2015. Independent variables: 2015 & 2019 > I will use a couple of months for each year (the same months for 2015 and 2019) Dependent variables: Tweets with keywords about mental health & Tweets without keywords about mental health.
