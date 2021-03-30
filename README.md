@@ -25,6 +25,32 @@ You can clone the repository as follows:
    ```
 3. Press `Enter` to create your local clone.
 
+## Collect the data
+After you have downloaded the necessary files, you can run the script called `mh_twitter.sh` as follows:
+1. Place `mh_twitter.sh` in the folder `20150101`. This folder contains all tweets from 01-01-2015.
+2. Run the following command:
+
+   ```ruby
+   ./mh_twitter.sh 2015010101.txt
+   ```
+   This command will run the script `m5_twitter.sh` on the file `2015010101.txt`, so for 01-01-2015      the first hour. The command will then print out the amount of Tweets with mental health keywords      and the amount of Tweets without mental health keywords. Write those down.
+3. Repeat the command above for each file. If you want to move on to the next folder, you need to        move the script `mh_twitter.sh`:
+  
+  ```ruby
+   mv mh_twitter.sh ..
+   mv mh_twitter.sh FOLDERNAME
+   ```
+4. After you have run the script on all files and written down the amount of tweets with and without    mental keywords, you can sum up all tweets with and without mental health keywords for each year.    This will give you the results of the amount of tweets with mental health keywords and the amount    of tweets without mental health keywords.
+
+## Results
+The results I obtained after collecting all of the data ar as follows:
+2015:
+Tweets with mental health keywords: 58
+Tweets without mental health keywords: 3.053.956
+
+2019:
+Tweets with mental health keywords: 167
+Tweets without mental health keywords: 1.854.194
 
 I made a few adjustments according to my feedback for my project proposal:
 
