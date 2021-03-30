@@ -44,6 +44,7 @@ After you have downloaded the necessary files, you can run the script called `mh
 
 ## Results
 The results I obtained after collecting all of the data ar as follows:
+
 2015:
 Tweets with mental health keywords: 58
 Tweets without mental health keywords: 3.053.956
