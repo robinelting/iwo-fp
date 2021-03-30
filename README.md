@@ -45,6 +45,12 @@ After you have downloaded the necessary files, you can run the script called `mh
 ## Results
 The results I obtained after collecting all of the data ar as follows:
 
+|   | Tweets with mental health keywords | Tweets without mental health keywords
+| ------------- | ------------- |
+| 2015  | 58  | 3053956 |
+| 2019  | 167  | 1854194 |
+
+
 2015:
 
 Tweets with mental health keywords: 58
