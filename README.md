@@ -3,8 +3,25 @@
 In this GitHub repository you can find all data and the script needed to obtain the same data as I have obtained for my research on the usage of mental health keywords on Twitter. In my study, I researched the following question: Are users on Twitter talking more about mental health in 2019 than in 2015? The results of my study can be found at the subtitle 'Results'.
 
 ## Data
-Besides the shell script, you can find multiple folders in this repository including the data that I have used for my research. These folders are called: *.
-
+The data for the script can be collected as follows:
+1. Log in to Karora and enter your password.
+   ```ruby
+   ssh s1234567@karora.let.rug.nl
+   ```
+   Replace `1234567` with your own student number.
+2. Collect all tweets for a specific date and hour.
+   ```ruby
+      zless /net/corpora/twitter2/Tweets/2015/01/20150101\:01.out.gz | /net/corpora/twitter2/tools/tweet2tab -i text
+   ```
+  This command collects all tweets from the first hour of 01-01-2015.
+3. Repeat the command at step 2 for every date and hour. So, for the second hour of 01-01-2015, use the following command:
+   ```ruby
+      zless /net/corpora/twitter2/Tweets/2015/01/20150101\:02.out.gz | /net/corpora/twitter2/tools/tweet2tab -i text
+   ```
+   and for the first hour of 10-01-2015 use the following command:
+   ```ruby
+      zless /net/corpora/twitter2/Tweets/2015/01/20150110\:01.out.gz | /net/corpora/twitter2/tools/tweet2tab -i text
+   ```
 ## Access files
 You can access the files from this repository in two ways; downloading direct from GitHub or cloning the repository.
 
