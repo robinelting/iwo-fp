@@ -13,7 +13,7 @@ The data for the script can be collected as follows:
    ```ruby
       zless /net/corpora/twitter2/Tweets/2015/01/20150101\:01.out.gz | /net/corpora/twitter2/tools/tweet2tab -i text
    ```
-  This command collects all tweets from the first hour of 01-01-2015.
+   This command collects all tweets from the first hour of 01-01-2015.
 3. Repeat the command at step 2 for every date and hour. So, for the second hour of 01-01-2015, use the following command:
    ```ruby
       zless /net/corpora/twitter2/Tweets/2015/01/20150101\:02.out.gz | /net/corpora/twitter2/tools/tweet2tab -i text
