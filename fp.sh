@@ -38,3 +38,4 @@ echo "Tweets without mental health keywords:"
 tweets=$(cat $FILE | wc -l)
 without=$((tweets- HITS))
 echo $without
+
